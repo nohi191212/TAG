@@ -98,16 +98,16 @@ organized dataset folder should be like this:
 ```
 >> TAG
 	>> BART
-		>> bart-large	   <--- download from huggingface facebook/bart-large
+		>> bart-large	   		<--- download from huggingface facebook/bart-large
 	>> data_scripts
 	>> datasets
 		>> aokvqa
-			>> features    <--- mkdir
+			>> features    		<--- mkdir
 			- aokvqa_v1p0_test.json
 			- aokvqa_v1p0_train.json
 			- aokvqa_v1p0_val.json
 			- large_vocab_train.csv
-            - specialized_vocab_train.csv
+            		- specialized_vocab_train.csv
 		>> coco2017
 			>> annotations
 			>> test2017
@@ -119,12 +119,12 @@ organized dataset folder should be like this:
 			>> train2014
 			>> val2014
 		>> vcr
-			>> features    <--- mkdir
+			>> features    		<--- mkdir
 			>> vcr1images
 			- test.jsonl
 			- train.jsonl
 			- val.jsonl
-	>> logs				   <--- mkdir
+	>> logs				   	<--- mkdir
 	>> tag
 ```
 
